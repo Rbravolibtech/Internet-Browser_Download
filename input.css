@@ -2,11 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
-@media(min-width: 1020px) {
+////////* This helps so the image appears or disappears depending on screen size from the left side the image is the blue thing that pops from the right side of the screen *//////////////////////
+@media screen(lg) {
   .bg-hero {
     width: 2000px;
     height: 300px;
     left: 30%;
     @apply absolute rounded-l-full top-52 bg-softBlue;
   }
+}
+
+
+////////* This helps so the image appears or disappears depending on screen size from the right side the image is the blue thing that pops from the left side of the screen *//////////////////////
+.bg-tabs {
+  width: 2000px;
+  height: 300px;
+  right: 60%;
+  @apply absolute rounded-r-full top-60 bg-softBlue;
 }

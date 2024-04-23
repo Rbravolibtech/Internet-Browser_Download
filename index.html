@@ -35,8 +35,31 @@
           <!-------------LOGIN BUTTON--------------------------->
           <a href="#" class="px-8 py-2 text-white bg-softRed border-2 border-softRed rounded-lg shadow-md hover:text-softRed hover:bg-white">LOGIN</a>
         </div>
+
+   <!--------------------------HAMBURGER MENU------------------------------->
+<button id="-btn" class="z-30 block md:hidden focus:outline-none hamburger">
+  <span class="hamburger-top"></span>
+  <span class="hamburger-middle"></span>
+  <span class="hamburger-bottom"></span>
+</button>
        </div>
-    </nav>
+
+  <!------------------------MOBILE MENU -------------------------------->
+  <div id="menu" class="fixed inset-0 z-20 hidden flex-col items-center self-end w-full h-full m-h-screen px-6 py-1 pt-24 pb-4 tracking-widest text-white uppercase divide-y divide-gray-500 opacity-90 bg-veryDarkBlue">
+    <div class="w-full py-3 text-center">
+      <a href="#features" class="block hover:text-softRed">FEATURES</a>
+    </div>
+    <div class="w-full py-3 text-center">
+      <a href="#download" class="block hover:text-softRed">DOWNLOAD</a>
+    </div>
+    <div class="w-full py-3 text-center">
+      <a href="#faq" class="block hover:text-softRed">FAQ</a>
+    </div>
+    <div class="w-full py-3 text-center">
+      <a href="#" class="block hover:text-softRed">LOGIN</a>
+    </div>
+  </div>
+</nav>
 
      <!------------------HERO SECTION------------------------------------>
      <section id="hero">
@@ -142,7 +165,7 @@ BOOKMARK IN ONE CLICK
      </div>
 
       <!-------------------------- PANEL 2 ----------------------------->
-      <div class="flex flex-col hidden py-5 md:flex-row md:space-x-7 panel panel-2">
+      <div class="flex flex-col py-5 md:flex-row md:space-x-7 panel panel-2">
         <!-----------------PANEL IMAGE--------------------->
         <div class="flex justify-center md:w-1/2">
          <img src="images/illustration-features-tab-2.svg" alt="picture with color dots " class="relative z-10">
@@ -168,7 +191,7 @@ class="px-6 py-3 mt-4 font-semibold text-white border-2 border-white rounded-lg 
 </div>
 
    <!-------------------------- PANEL 3 ----------------------------->
-   <div class="flex flex-col hidden py-5 md:flex-row md:space-x-7 panel panel-3">
+   <div class="flex flex-col py-5 md:flex-row md:space-x-7 panel panel-3">
     <!-----------------PANEL IMAGE--------------------->
     <div class="flex justify-center md:w-1/2">
      <img src="images/illustration-features-tab-3.svg" alt="picture with color dots " class="relative z-10">
@@ -475,7 +498,7 @@ class="overflow-hidden transition duration-500 group-focus:max-h-screen max-h-0 
           <a href="#features" id="features" class="uppercase hover:text-sofRed">FAQs</a>
          </div>
 
-          <!-----------------------SOCIAL CONTAINER-------------------------->
+  <!--------------------------SOCIAL CONTAINER-------------------------------->
           <div class="flex space-x-10">
             <a href="#">
               <img src="images/icon-facebook.svg" alt="" class="h-6 ficon" />
@@ -486,6 +509,5 @@ class="overflow-hidden transition duration-500 group-focus:max-h-screen max-h-0 
           </div>
        </div>
      </footer>
-
 </body>
 </html>
